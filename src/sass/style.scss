@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import "layout/b-page__layout";
+
+.alert {
+	background-color: rgb(159,197,248);
+	padding: 15px;
+	padding-right: 16px;
+	width: 95%;
+	float: left;
+	margin: 0px 0px 15px 5px;
+	display: inline-block;
+}
+.alert__message {
+	width: 100%;
+	color: white;
+}
+.alert__message_close {
+	width: 10px;
+	float: right;
+	margin: 5px 0px;
+}
+.post {
+	border: solid 1px black;
+	width: 95%;
+	display: inline-block;
+	padding: 15px;
+	margin: 5px;
+}
+.post__header{
+	float: left;
+}
+.post__img{
+	display: inline-block;
+}
+.post__img_size {
+	width: 100px;
+	border: solid 1px black;
+}
+.post__title {
+	font-size: 30px;
+	float: right;
+	margin-left: 10px; 
+}
+.post__subtitle {
+	font-size: 20px;
+}
+.post__star {
+	float: right;
+	cursor: pointer;
+	margin: 10px 30px;
+}
+.post__text {
+	margin: 20px 0px;
+}
+.post__button {
+	cursor: pointer;
+}

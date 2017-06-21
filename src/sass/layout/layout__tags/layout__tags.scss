@@ -1,0 +1,36 @@
+.tags {
+    width: 16%;
+    float: right;
+    margin: 30px 10px;
+}    
+.tags__item {
+    text-decoration: none;
+    color: black;
+}
+.tags__item_active {
+    color: rgb(255,25,25);
+}
+.tags__item_xxs {
+    font-size: 7px;
+}
+.tags__item_xs {
+    font-size: 10px;
+}
+.tags__item_s {
+    font-size: 12px;
+}
+.tags__item_m {
+    font-size: 13px;
+}
+.tags__item_l {
+    font-size: 14px;
+}
+.tags__item_xl {
+    font-size: 18px;
+}
+.tags__item_xxl {
+    font-size: 20px;
+}
+.tags__item_xxxl {
+    font-size: 24px;
+}

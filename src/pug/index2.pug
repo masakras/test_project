@@ -1,0 +1,69 @@
+doctype html
+html
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        link(rel="stylesheet" type="text/css" href="css/style2.css")
+        title A Web Page
+    body.b-page
+        include layout/b-page__layout
+
+        article.content.b-page__content
+            section.picks-out.b-page__picks-out
+                span.pick-out__checkbox
+                    input(type="checkbox" name="" value="" checked)
+                    |  Checkbox
+                span.pick-out__checkbox                    
+                    input(type="checkbox" name="" value="")
+                    |  Checkbox    
+                input(type="range" min="1" max="10" step="1" value="5").pick-out__range
+                select.pick-out__select
+                    option(selected="selected").pick-out__select_option ComboBox
+                button(type="submit").pick-out__button Search
+
+            article.thumbnails.b-page__thumbnails
+                div.thumbnails__item
+                    img(src="./img/Example.jpg").thumbnails__image
+                    div.thumbnails__description Some text
+                        span.thumbnails__star
+                            img(src='./img/star (1).png')
+                div.thumbnails__item
+                    img(src="./img/Example.jpg").thumbnails__image
+                    div.thumbnails__description Some text
+                        span.thumbnails__star_active.thumbnails__star
+                            img(src='./img/star.png')
+                div.thumbnails__item
+                    img(src="./img/Example.jpg").thumbnails__image
+                    div.thumbnails__description Some text
+                        span.thumbnails__star
+                            img(src='./img/star (1).png')
+                div.thumbnails__item
+                    img(src="./img/Example.jpg").thumbnails__image
+                    div.thumbnails__description Some text
+                        span.thumbnails__star
+                            img(src='./img/star (1).png')
+                div.thumbnails__item
+                    img(src="./img/Example.jpg").thumbnails__image
+                    div.thumbnails__description Some text
+                        span.thumbnails__star
+                            img(src='./img/star (1).png')
+                div.thumbnails__item
+                    img(src="./img/Example.jpg").thumbnails__image
+                    div.thumbnails__description Some text
+                        span.thumbnails__star_active.thumbnails__star
+                            img(src='./img/star.png')
+            div.pagination.b-page__pagination
+                span.pagination__item &#60 &#60
+                span.pagination__item &#60
+                span.pagination__item 1
+                a(href="#").pagination__item 
+                    span 2
+                a(href="#").pagination__item
+                    span 3
+                span.pagination__item ...
+                span.pagination__item
+                    a(href="#") 10
+                span.pagination__item
+                    a(href="#") &#62
+                span.pagination__item
+                    a(href="#") &#62 &#62

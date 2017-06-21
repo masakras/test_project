@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import "layout/b-page__layout";
+
+.picks-out {
+	background-color: #EEEEEE;
+	width: 95%;
+	padding: 25px 15px; 
+	margin:5px 0px 15px 5px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.pick-out__button {
+	color: white;
+	background-color: rgb(43,120,228);
+	border-radius: 7px;
+	padding: 4px;
+	cursor: pointer;
+	border: none;
+}
+.thumbnails {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 101%;
+}
+.thumbnails__item {
+	float: left;
+	border: solid 1px black;
+	margin: 5px;
+	width: 31%;
+}
+.thumbnails__image {
+    width:100%;
+}
+.thumbnails__description {
+	padding: 10px 10px 40px;
+	border-top: solid 1px black;
+}
+.thumbnails__star {
+	float: right;
+	cursor: pointer;
+}
+.pagination__item {
+	margin: 0px 5px;
+}

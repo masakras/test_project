@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        meta(charset = 'utf-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        link(rel="stylesheet" type="text/css" href="css/style.css")
+        title A Web Page
+    body.b-page
+        include layout/b-page__layout
+        
+        article.content.b-page__content          
+            section.alert.content__alert
+                div.alert__message Some alert
+                    a(href="#")
+                        img.alert__message_close(src='./img/cross1.png')           
+            section.post.content__post
+                div.post__header
+                    div.post__img
+                        img.post__img_size(src='./img/Example.jpg')
+                        div.post__title A Big Title
+                            div.post__subtitle A Subtitle
+                    span.post__star
+                        img(src='./img/star (1).png')        
+                    div.post__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, illum commodi voluptatum. In, nulla. Ea, quae dolore odit et quod delectus error culpa. Dolore, beatae corrupti ipsam eius sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, illum commodi voluptatum. In, nulla. Ea, quae dolore odit et quod delectus error culpa. Dolore, beatae corrupti ipsam eius sint.
+                button.post__button Button
+            section.post.content__post
+                div.post__header
+                    div.post__img
+                        img.post__img_size(src='./img/Example.jpg')
+                        div.post__title A Big Title
+                            div.post__subtitle A Subtitle
+                    span.post__star
+                        img(src='./img/star (1).png')
+                    div.post__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, illum commodi voluptatum. In, nulla. Ea, quae dolore odit et quod delectus error culpa. Dolore, beatae corrupti ipsam eius sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, illum commodi voluptatum. In, nulla. Ea, quae dolore odit et quod delectus error culpa. Dolore, beatae corrupti ipsam eius sint.
+                button.post__button Button

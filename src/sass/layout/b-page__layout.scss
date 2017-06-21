@@ -1,0 +1,15 @@
+.b-page {
+    width:1080px;
+    margin:0px auto;
+    font-family: 'Itim', cursive;
+    font-size:16px;
+}
+.layout {
+	width: 100%;	
+}
+.content {
+	width: 62%;
+	display: inline-block;
+}
+
+@import "layout__user-account/layout__user-account", "layout__main-menu/layout__main-menu", "layout__tags/layout__tags";
