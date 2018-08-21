@@ -4,6 +4,6 @@
 
 Собранный проект в папке: /dist
 
-Demo: https://github.com/masakras/test_project_template
+Demo: https://masakras.github.io/test_project_template/
 
 ![logo](https://github.com/masakras/test_project/blob/master/site_full.PNG)
